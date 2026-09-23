@@ -1,0 +1,12 @@
+function iniciar-jdev {
+    # Navega até o diretório do projeto
+    cd "C:\Users\Aluno.EDU\Documents\Jacob Derek - PRG. Sistemas\JDev"
+
+    # Inicia o JFiles em segundo plano (para não travar o terminal)
+    Start-Process python "JFiles.py"
+
+    # Inicia o JShell no próprio terminal
+    python "JShell.py"
+}
+# Cria um atalho curto para a função (você pode mudar "jdev" para o que preferir)
+Set-Alias jdev iniciar-jdev
