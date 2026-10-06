@@ -25,9 +25,7 @@ print("Olá, bem-indo à lista de compras.")
 
 while True:
     sleep(0.3)
-    user_option = int(input(f"""
-    
-Selecione uma opção no menu de ações:
+    user_option = int(input(f"""Selecione uma opção no menu de ações:
 1 - Adicionar item
 2 - Remover item
 3 - Ver lista
